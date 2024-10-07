@@ -25,10 +25,10 @@ import ContentDetails from './pages/ContentDetails';
 
 import LessonPlan from './pages/LessonPlan';
 import Module from './pages/Module';
-import AdminDash from './pages/Admin/AdminDash';
-import AdminCourse from './pages/Admin/AdminCourses';
-import AdminCourseDetails from './pages/Admin/AdminCourseDetails';
-import AdminLessonPlan from './pages/Admin/AdminLessonPlan';
+// import AdminDash from './pages/Admin/AdminDash';
+// import AdminCourse from './pages/Admin/AdminCourses';
+// import AdminCourseDetails from './pages/Admin/AdminCourseDetails';
+// import AdminLessonPlan from './pages/Admin/AdminLessonPlan';
 import CourseDetailsTmp from './pages/CourseDetailsTemp';
 import PDF from './pages/PDF';
 
@@ -67,12 +67,12 @@ function App() {
       </Routes>
 
       {/* Admin Login */}
-      <Routes>
+      {/* <Routes>
         <Route exact path='/admin' element={<AdminDash/>}/>
         <Route exact path='/admin_courses' element={<AdminCourse/>}/>
         <Route exact path='/admin_course_details' element={<AdminCourseDetails/>} />
         <Route path="/admin-lesson-plan/:plan" element={<AdminLessonPlan />} />
-      </Routes>
+      </Routes> */}
 
     </>
   );
